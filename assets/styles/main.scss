@@ -588,3 +588,33 @@
     /* End of Menu */
 
 }
+/* End of footer */
+
+/* responsive */
+@media screen and (max-width:768px){
+    /* Header */
+    .header{
+        position: static;
+        height: auto;
+        .container{
+            flex-direction: column;
+        }
+        .menu{
+            flex-direction: column;
+            &__list{
+                flex-direction: column;
+            }
+        }
+    }
+    /* End of Header */
+    /* Main*/
+    .main{
+        margin-top: 0;
+        .container{
+            flex-direction: column;
+        }
+        .form{
+            margin-bottom: 40px;
+        }
+    }
+}
