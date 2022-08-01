@@ -591,6 +591,7 @@
 /* End of footer */
 
 /* responsive */
+/* Tablet */
 @media screen and (max-width:768px){
     /* Header */
     .header{
@@ -616,5 +617,16 @@
         .form{
             margin-bottom: 40px;
         }
+    }
+}
+/* End of Tablet */
+/* For Mobile */
+@media screen and (max-width:425px){
+    .heading{
+        width: 320px;
+    }
+    .video__border{
+        width: 320px;
+        height: auto;
     }
 }
